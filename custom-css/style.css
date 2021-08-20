@@ -1,0 +1,23 @@
+.details-section{
+    width: 95%;
+}
+
+.highlight:hover{
+    cursor: pointer;
+    background-color: #2B2B2B;
+    color: white;
+}
+.cost{
+    text-decoration: underline;
+}
+.line-width{
+    width: 55%;
+}
+
+.apply-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: #E62929;
+    color: white;
+    padding: 9px 18px;
+}
