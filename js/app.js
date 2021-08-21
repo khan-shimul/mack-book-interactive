@@ -64,7 +64,7 @@ document.getElementById('promo-code-btn').addEventListener('click', function () 
     const promoCode = promoInput.value;
     promoInput.value = '';
     if (promoCode == 'stevekaku') {
-        promoTotal.innerText = total * (100 - 25) / 100;
+        promoTotal.innerText = total * (100 - 20) / 100;
     }
     else {
         alert('Please give a valid discount')
