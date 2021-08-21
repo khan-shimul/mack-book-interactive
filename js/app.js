@@ -70,5 +70,3 @@ document.getElementById('promo-code-btn').addEventListener('click', function () 
         alert('Please give a valid promo code')
     }
 });
-
-
