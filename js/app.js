@@ -5,7 +5,7 @@ function updatePrices(configuration, extraAmount) {
     updateTotal();
 };
 
-// get extra input
+// get extra input and update total
 function getPrices(configuration) {
     const extraPricesField = document.getElementById(configuration + '-extra-cost');
     const extraPricesText = extraPricesField.innerText;
