@@ -2,9 +2,8 @@
     width: 95%;
 }
 
-.highlight:hover{
-    cursor: pointer;
-    background-color: #2B2B2B;
+.bg-hover:hover{
+    background-color: #424242;
     color: white;
 }
 .cost{
