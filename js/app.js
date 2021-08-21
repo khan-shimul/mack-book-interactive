@@ -67,7 +67,7 @@ document.getElementById('promo-code-btn').addEventListener('click', function () 
         promoTotal.innerText = total * (100 - 20) / 100;
     }
     else {
-        alert('Please give a valid discount')
+        alert('Please give a valid promo code')
     }
 });
 
