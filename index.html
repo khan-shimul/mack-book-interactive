@@ -35,102 +35,91 @@
                                 Magic
                                 Mouse Magic Keyboard - US English</p>
                         </div>
-                        <!-- config -->
+                        <!-- parts -->
                         <div>
                             <!-- memory -->
                             <div class="mb-5">
                                 <h5 class="fw-bold mb-3">Memory</h5>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">8GB unified
+                                <button id="default-memory" type="button" class="btn btn-outline-secondary bg-hover">8GB
+                                    unified
                                     memory</button>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">16GB unified
+                                <button id="best-memory" type="button" class="btn btn-outline-secondary bg-hover">16GB
+                                    unified
                                     memory</button>
                             </div>
                             <!-- storage -->
                             <div class="mb-5">
                                 <h5 class="fw-bold mb-3">Storage</h5>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">256GB SSD
+                                <button id="default-ssd" type="button" class="btn btn-outline-secondary bg-hover">256GB
+                                    SSD
                                     Storage</button>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">512GB SSD
+                                <button id="medium-ssd" type="button" class="btn btn-outline-secondary bg-hover">512GB
+                                    SSD
                                     Storage</button>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">1TB SSD
+                                <button id="best-ssd" type="button" class="btn btn-outline-secondary bg-hover">1TB SSD
                                     Storage</button>
                             </div>
                             <!-- delivery option -->
                             <div class="mb-5">
                                 <h5 class="fw-bold mb-3">Choose Your Delivery Option</h5>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">Friday, Aug 25 FREE
+                                <button id="free-ship-btn" type="button"
+                                    class="btn btn-outline-secondary bg-hover">Friday, Aug 25 FREE
                                     Prime
                                     Delivery</button>
-                                <button type="button" class="btn btn-outline-secondary bg-hover">Friday, Aug 21
+                                <button id="charged-ship-btn" type="button"
+                                    class="btn btn-outline-secondary bg-hover">Friday, Aug 21
                                     Delivery
                                     Charge $20</button>
                             </div>
                         </div>
 
-                        <!-- Prices -->
-                        <!-- <div class="row">
-                            <div class="col-6">
-                                <h5 class="fw-bold border-bottom">Best Price</h5>
-                                <h5 class="fw-bold">Extra Memory Cost</h5>
-                                <h5 class="fw-bold">Extra Storage Cost</h5>
-                                <h5 class="fw-bold">Delivery Charge</h5>
-                            </div>
-
-                            <div class="col-6">
-                                <h5 class="fw-bold">$<span>1299</span></h5>
-                                <h5 class="fw-bold">$<span>0</span></h5>
-                                <h5 class="fw-bold">$<span>0</span></h5>
-                                <h5 class="fw-bold">$<span>0</span></h5>
-                            </div>
-                        </div> -->
-
-                        <!-- prices too much codes -->
+                        <!-- prices -->
                         <div class="row">
                             <div class="col-5">
                                 <h5 class="fw-bold">Best Price</h5>
                             </div>
                             <div class="col-5">
-                                <h5 class="fw-bold">$<span>1299</span></h5>
+                                <h5 class="fw-bold">$<span id="best-price">1299</span></h5>
                             </div>
                             <hr class="line-width">
                         </div>
-
+                        <!-- extra memory cost -->
                         <div class="row">
                             <div class="col-5">
                                 <h5 class="fw-bold">Extra Memory Cost</h5>
                             </div>
                             <div class="col-5">
-                                <h5 class="fw-bold">$<span>0</span></h5>
+                                <h5 class="fw-bold">$<span id="memory-extra-cost">0</span></h5>
                             </div>
                             <hr class="line-width">
                         </div>
-
+                        <!-- extra storage cost -->
                         <div class="row">
                             <div class="col-5">
                                 <h5 class="fw-bold">Extra Storage Cost</h5>
                             </div>
                             <div class="col-5">
-                                <h5 class="fw-bold">$<span>0</span></h5>
+                                <h5 class="fw-bold">$<span id="storage-extra-cost">0</span></h5>
                             </div>
                             <hr class="line-width">
                         </div>
-
+                        <!-- extra delivery charge -->
                         <div class="row">
                             <div class="col-5">
                                 <h5 class="fw-bold">Delivery Charge</h5>
                             </div>
                             <div class="col-5">
-                                <h5 class="fw-bold">$<span>0</span></h5>
+                                <h5 class="fw-bold">$<span id="delivery-extra-cost">0</span></h5>
                             </div>
                             <hr class="line-width border border-1 border-dark ">
                         </div>
-
+                        <!-- total price -->
                         <div class="row">
                             <div class="col-5">
                                 <h5 class="fw-bold">Total Price</h5>
                             </div>
                             <div class="col-5">
-                                <h5 class="fw-bold">$<span>1299</span></h5>
+                                <h5 class="fw-bold">$<span id="total-price">1299</span></h5>
                             </div>
                             <hr class="line-width">
                         </div>
@@ -138,16 +127,16 @@
                         <!-- promo code -->
                         <div>
                             <h5>Add Promo Code</h5>
-                            <input class="border rounded w-50 p-2" type="text">
-                            <button class="apply-btn">Apply</button>
+                            <input id="promo-code-input" class="border rounded w-50 p-2" type="text">
+                            <button id="promo-code-btn" class="apply-btn">Apply</button>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
-            <!-- total price -->
+            <!-- discount price -->
             <footer>
-                <h5 class="fw-bold fs-2 text-center">Total: $<span>1299</span></h5>
+                <h5 class="fw-bold fs-2 text-center">Total: $<span id="promo-total-price">1299</span></h5>
             </footer>
         </section>
     </main>
