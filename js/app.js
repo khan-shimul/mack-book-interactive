@@ -1,13 +1,13 @@
 // update extra amount
-function updatePrices(product, extraAmount) {
-    const productField = document.getElementById(product + '-extra-cost');
-    productField.innerText = extraAmount;
+function updatePrices(configuration, extraAmount) {
+    const configurationField = document.getElementById(configuration + '-extra-cost');
+    configurationField.innerText = extraAmount;
     updateTotal();
 };
 
 // get extra input
-function getPrices(product) {
-    const extraPricesField = document.getElementById(product + '-extra-cost');
+function getPrices(configuration) {
+    const extraPricesField = document.getElementById(configuration + '-extra-cost');
     const extraPricesText = extraPricesField.innerText;
     const extraPrice = parseInt(extraPricesText);
     return extraPrice;
@@ -29,7 +29,7 @@ function updateTotal() {
 
 };
 
-// add event handler on products button
+// add event handler on configuration button
 document.getElementById('default-memory').addEventListener('click', function () {
     updatePrices('memory', 0);
 });
